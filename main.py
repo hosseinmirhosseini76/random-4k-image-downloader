@@ -35,7 +35,7 @@ def photoDowloader(url, urlPrefix, count):
 if __name__ == "__main__":
     allPages = findAllHtmlPages("https://4kwallpapers.com/random-wallpapers/")
     count = 0
-    os.chdir('.\pictures')
+    os.chdir(os.path.expanduser('~/Pictures'))
     for page in allPages:
         url = page['href']
         photoDowloader(url, "https://4kwallpapers.com", count)
