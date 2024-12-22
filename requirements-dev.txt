@@ -1,0 +1,9 @@
+mypy==1.13.0
+mypy-extensions==1.0.0
+black==24.10.0
+isort==5.13.2
+types-beautifulsoup4==4.12.0.20241020
+types-html5lib==1.1.11.20241018
+types-requests==2.32.0.20241016
+types-tqdm==4.67.0.20241119
+pycodestyle==2.12.1
